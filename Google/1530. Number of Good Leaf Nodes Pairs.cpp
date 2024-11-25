@@ -18,7 +18,7 @@ public:
             left.insert(left.end(), right.begin(), right.end());
             return left;
         };
-        dfs(root, 0); 
-        return ans;
+    dfs(root, 0); 
+    return ans;
     }
 };
